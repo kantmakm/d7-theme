@@ -1,0 +1,36 @@
+name = Starter
+description = Starter is a base theme that allows you to build your front end from scratch
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+php = 5.2
+
+;-------------- F E A T U R E S -------------
+features[] = logo
+features[] = favicon
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+
+;-------------- R E G I O N S -------------
+
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom
+
+regions[header] = Header
+
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+
+regions[content_pre] = Content pre
+regions[content] = Content
+regions[content_post] = Content Post
+
+regions[footer] = Footer
+
+regions[highlighted] = Highlighted
+
+;-------------- C S S -------------
+stylesheets[all][] = public/css/main.css

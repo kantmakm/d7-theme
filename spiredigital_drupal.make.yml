@@ -1,0 +1,46 @@
+# Spiredigital Makefile for Drupal
+
+core: "7.x"
+api: 2
+
+projects:
+  drupal:
+    version: ~
+  admin_menu:
+    version: ~
+  backup_migrate:
+    version: ~
+  ckeditor:
+    version: ~
+  context:
+    version: ~
+  ctools:
+    version: ~
+  date:
+    version: ~
+  devel:
+    version: ~
+  google_analytics:
+    version: ~
+  imce:
+    version: ~
+  libraries:
+    version: ~
+  link:
+    version: ~
+  pathauto:
+    version: ~
+  special_menu_items:
+    version: ~
+  stage_file_proxy:
+    version: ~
+  views:
+    version: ~
+  views_bulk_operations:
+    version: ~
+  xmlsitemap:
+    version: ~
+
+defaults:
+  projects:
+    subdir: "contrib"
